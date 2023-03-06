@@ -3,9 +3,13 @@
     padding:0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 header{
     margin-bottom: 50px;
+}
+header svg{
+    width: 100%;
 }
 body{
     background-color: hsl(180, 52%, 96%);
@@ -24,6 +28,7 @@ body{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+   
 }
 .card:hover{
     border-left: 5px solid hsl(180, 29%, 50%);
@@ -44,6 +49,7 @@ body{
     list-style-type: none;
     margin-right: 10px;
     font-size: 13px;
+    cursor: pointer;
 }
 .info .top ul li:nth-child(1){
     color: hsl(180, 29%, 50%);
@@ -90,4 +96,5 @@ body{
     font-size: 12px;
     font-weight: 700;
     border-radius: 10px;
+    cursor: pointer;
 }
